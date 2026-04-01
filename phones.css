@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+/* HEADER */
+header {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo span {
+  color: limegreen;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: linear-gradient(to right, black, #333);
+  color: white;
+}
+
+/* PRODUCTS */
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+/* GENERAL CARD */
+.card {
+  background: white;
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.card img {
+  width: 100%;
+}
+
+/* BUTTON */
+.card button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: limegreen;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* 🔥 DIFFERENT HOVER EFFECTS */
+
+/* CARD 1 - SCALE + SHADOW */
+.card1:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* CARD 2 - ROTATE */
+.card2:hover {
+  transform: rotate(3deg);
+  background: #e8ffe8;
+}
+
+/* CARD 3 - LIFT UP */
+.card3:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
+
+/* BUTTON HOVER */
+.card1 button:hover {
+  background: black;
+}
+
+.card2 button:hover {
+  background: orange;
+}
+
+.card3 button:hover {
+  background: red;
+}
+
+
+
+
+
+
+
+
+
+.ukused{
+  text-align: center;
+  padding: 60px;
+  background: linear-gradient(to right, black, #333);
+  color: white;
+}
+
+
+/* PRODUCTS */
+.ukused-products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+/* GENERAL CARD */
+.ukused-card {
+  background: white;
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.ukused-card img {
+  width: 100%;
+}
+
+/* BUTTON */
+.ukused-card button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: limegreen;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* 🔥 DIFFERENT HOVER EFFECTS */
+
+/* CARD 1 - SCALE + SHADOW */
+.ukused-card1:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* CARD 2 - ROTATE */
+.ukused-card2:hover {
+  transform: rotate(3deg);
+  background: #e8ffe8;
+}
+
+/* CARD 3 - LIFT UP */
+.ukused-card3:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
+
+/* BUTTON HOVER */
+.ukused-card1 button:hover {
+  background: black;
+}
+
+.ukused-card2 button:hover {
+  background: orange;
+}
+
+.ukused-card3 button:hover {
+  background: red;
+}

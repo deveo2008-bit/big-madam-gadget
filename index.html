@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BIGMADAM GADGET</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+   
+  <h2 class="logo">BIGMADAM <span>GADGET</span></h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="phones.html">Phones</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+ <div>
+        
+  <input type="text" id="search" placeholder="Search phone..." onkeyup="searchProduct()">
+
+    </div>
+
+<section class="hero">
+  <h1>Latest Smartphones</h1>
+  <p>Affordable & Original Devices</p>
+  <button onclick="scrollToProducts()">Shop Now</button>
+</section>
+
+<section class="products" id="products">
+
+  <div class="card">
+    <img src="shopping.webp">
+    <h3>iPhone 13</h3>
+    <p>₦600,000</p>
+    <button onclick="buyNow('iPhone 13')">Buy Now</button>
+  </div>
+
+  <div class="card">
+    <img src="download.webp">
+    <h3>Samsung S21</h3>
+    <p>₦450,000</p>
+    <button onclick="buyNow('Samsung S21')">Buy Now</button>
+  </div>
+
+  <div class="card">
+    <img src="shopping (1).webp">
+    <h3>Tecno Camon 20</h3>
+    <p>₦180,000</p>
+    <button onclick="buyNow('Tecno Camon 20')">Buy Now</button>
+  </div>
+
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>Click below to chat with us on WhatsApp</p>
+  <button onclick="contactWhatsApp()">Chat Now</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
