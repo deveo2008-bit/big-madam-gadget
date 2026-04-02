@@ -66,3 +66,5 @@ function searchProduct() {
 function toggleDarkMode() {
   document.body.classList.toggle("dark");
 }
+
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
